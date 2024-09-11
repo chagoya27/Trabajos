@@ -1,0 +1,108 @@
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       1
+
+                    ORG $8000
+                   VAR EQU $1789 *esto es una variable o constante
+                   INICIO
+  8000 CE 06 FD            LDX #1789
+                   CICLO
+  8003 01           NOP *esto es otro comentario
+  8004 C6 0B        LDAB #11
+                    ldab
+E                       ^ Operand (expression) expected.
+  8006 09           DEX
+  8007 DE 0F        LDX 15
+  8009 A6 45        LDAA $45,X
+                    ADDB $FF00,X
+E                        ^ The value of this expression must fit in 8 bits.
+                    BNE CICLO2
+E                       ^ Unknown identifier.
+  800B 94 F0        ANDA $F0
+  800D 18 FE AB CD  LDY $ABCD
+  8011 09           DEX
+  8012 01           nop
+                   LDAA $45,X
+E                       ^ Unexpected character in instruction or directive.
+                    LDAA JHJHHJJH
+E                        ^ Unknown identifier.
+  8013 18 E6 67     LDAB $67,Y
+  8016 B6 45 7C     LDAA $457C
+  8019 7E 80 00     JMP INICIO
+  801C 01           NOP
+                    ANDA255
+E                       ^ Unexpected character in instruction or directive.
+  801D A6 45        LDAA $45,X
+  801F A6 45        LDAA $45,X
+  8021 A6 45        LDAA $45,X
+  8023 A6 45        LDAA $45,X
+  8025 A6 45        LDAA $45,X
+  8027 A6 45        LDAA $45,X
+  8029 A6 45        LDAA $45,X
+  802B A6 45        LDAA $45,X
+  802D A6 45        LDAA $45,X
+  802F A6 45        LDAA $45,X
+  8031 A6 45        LDAA $45,X
+  8033 A6 45        LDAA $45,X
+  8035 A6 45        LDAA $45,X
+  8037 A6 45        LDAA $45,X
+  8039 A6 45        LDAA $45,X
+  803B A6 45        LDAA $45,X
+  803D A6 45        LDAA $45,X
+  803F A6 45        LDAA $45,X
+  8041 A6 45        LDAA $45,X
+  8043 A6 45        LDAA $45,X
+  8045 A6 45        LDAA $45,X
+  8047 A6 45        LDAA $45,X
+  8049 A6 45        LDAA $45,X
+  804B A6 45        LDAA $45,X
+  804D A6 45        LDAA $45,X
+  804F A6 45        LDAA $45,X
+  8051 A6 45        LDAA $45,X
+  8053 A6 45        LDAA $45,X
+  8055 A6 45        LDAA $45,X
+  8057 A6 45        LDAA $45,X
+  8059 A6 45        LDAA $45,X
+  805B A6 45        LDAA $45,X
+  805D A6 45        LDAA $45,X
+  805F A6 45        LDAA $45,X
+  8061 A6 45        LDAA $45,X
+  ADDR B1 B2 B3 B4 thrass11.tmp                                     PAGE       2
+
+  8063 A6 45        LDAA $45,X
+  8065 A6 45        LDAA $45,X
+  8067 A6 45        LDAA $45,X
+  8069 A6 45        LDAA $45,X
+  806B A6 45        LDAA $45,X
+  806D A6 45        LDAA $45,X
+  806F A6 45        LDAA $45,X
+  8071 A6 45        LDAA $45,X
+  8073 A6 45        LDAA $45,X
+  8075 A6 45        LDAA $45,X
+  8077 A6 45        LDAA $45,X
+  8079 A6 45        LDAA $45,X
+  807B A6 45        LDAA $45,X
+  807D A6 45        LDAA $45,X
+  807F A6 45        LDAA $45,X
+  8081 A6 45        LDAA $45,X
+  8083 A6 45        LDAA $45,X
+  8085 A6 45        LDAA $45,X
+  8087 A6 45        LDAA $45,X
+  8089 A6 45        LDAA $45,X
+  808B A6 45        LDAA $45,X
+  808D A6 45        LDAA $45,X
+  808F A6 45        LDAA $45,X
+  8091 A6 45        LDAA $45,X
+  8093 A6 45        LDAA $45,X
+                    BNE CICLO
+E                       ^ The offset must fit in 8 bits.
+                    ORG $3000
+  3000 01           NOP
+  3001 01           NOP
+                    bne ciclo3
+E                       ^ Unknown identifier.
+  3002 94 FF        ANDA 255
+
+  Symbol Table 
+
+  CICLO              8003
+  VAR                1789
+  INICIO             8000
