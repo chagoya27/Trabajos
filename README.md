@@ -1,2 +1,2 @@
 # Trabajos
-Estos han sido los trabajos mas importantes que he desarrollado a lo largo de la carrera de ingeniería en computación
+Estos son algunos de los proyectos realizados durante la carrera de Ingenieria en Computación
