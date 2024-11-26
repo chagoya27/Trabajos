@@ -1,0 +1,217 @@
+Sucursal,NombreSucursal,SucursalCP,Delegacion,STATUS_SOLICITUD,APROBACION_TC,TIPO_CTE,LINEA_CREDITO_FINAL,SALDO_CUENTA,CAPACIDAD_TC,INGRESO_INFERIDO,SUMA_LINEAS_REVOLVENTES,NIVEL_RIESGO,CAPACIDAD_PAGO_TOTAL,SCORE_CLIENTE,SUMA_SALDOS_TOTAL,EDAD,TIPO_VIVIENDA,ESCOLARIDAD
+4,LA VILLA,7810,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,18582,0,Alto,0,93,0,27,Familiares,Posgrado
+4,LA VILLA,7810,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,18860,0,Alto,0,94,0,30,Renta,Licenciatura
+7,PLAZA GABRIEL MANCERA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,23037,0,Alto,0,96,0,32,Propia,Preparatoria
+7,PLAZA GABRIEL MANCERA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,20304,0,Alto,0,98,0,33,Renta,Licenciatura
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,5150,0,Alto,0,90,0,25,Familiares,Preparatoria
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,5232,0,Alto,0,96,0,25,Familiares,Posgrado
+7796,AEROPUERTO T2,15620,Venustiano Carranza,En_proceso,Rechazado,MALO,0,,,17903,0,Alto,0,101,0,29,Familiares,Posgrado
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,20886,0,Alto,0,91,0,36,Familiares,Posgrado
+9,INSURGENTES PARROQUIA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,19587,0,Alto,0,98,1,32,Propia,Licenciatura
+10,CORUGNA,8200,Iztacalco,Aprobada,Aprobado,BUENO,9899,11681,-0.18,17353,10800,Bajo,1.18,222,0,32,Familiares,Posgrado
+11,POLANCO,11560,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,19907,0,Alto,0,93,0,29,Familiares,Licenciatura
+13,REFORMA COLON,6470,Cuauhtemoc,Aprobada,Aprobado,REGULAR,21500,7525,0.65,18524,0,Mínimo,0.35,212,0,29,Propia,Posgrado
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,18192,0,Alto,0,89,0,30,Propia,Preparatoria
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,19492,0,Alto,0,97,0,31,Familiares,Posgrado
+25,VALLEJO,2300,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,18693,0,Alto,0,95,0,27,Hipoteca,Preparatoria
+25,VALLEJO,2300,Azcapotzalco,Aprobada,Aprobado,REGULAR,46999,21150,0.55,16519,18700,Medio ,0.45,195,92815,33,Hipoteca,Preparatoria
+35,PLAZA SANTANDER,6500,Cuauhtemoc,Aprobada,Aprobado,REGULAR,2999,540,0.82,17964,0,Mínimo,0.18,208,0,26,Renta,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,4746,0,Alto,0,94,0,25,Propia,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,28259,0,Alto,0,91,0,36,Hipoteca,Posgrado
+41,REFORMA DIANA,6600,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,5209,0,Alto,0,96,0,25,Propia,Posgrado
+45,AZCAPOTZALCO,2070,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,15388,0,Alto,0,99,73516,31,Hipoteca,Posgrado
+64,FLORIDA COYOACAN,1030,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,19440,0,Alto,0,92,0,27,Hipoteca,Preparatoria
+64,FLORIDA COYOACAN,1030,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,21285,0,Alto,0,89,0,32,Renta,Licenciatura
+64,FLORIDA COYOACAN,1030,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,25162,0,Alto,0,93,0,34,Renta,Preparatoria
+64,FLORIDA COYOACAN,1030,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,24637,0,Alto,0,93,0,36,Familiares,Posgrado
+487,COLONIA DEL VALLE,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,7036,15,Alto,0,101,0,25,Propia,Posgrado
+487,COLONIA DEL VALLE,3100,Benito Juarez,Aprobada,Aprobado,BUENO,9899,6632,0.33,12271,0,Mínimo,0.67,252,0,25,Renta,Posgrado
+487,COLONIA DEL VALLE,3100,Benito Juarez,Aprobada,Aprobado,BUENO,2999,2909,0.03,22436,8400,Bajo,0.97,244,0,34,Hipoteca,Posgrado
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,BUENO,56000,57120,-0.02,11130,75300,Bajo,1.02,226,55226,25,Hipoteca,Posgrado
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Pendiente,Pre-Aprobado,MALO,1,,,18452,40004,Alto,0,124,0,27,Hipoteca,Licenciatura
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,15563,0,Alto,0,98,14046,29,Renta,Posgrado
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Pendiente,Pre-Aprobado,MALO,1,,,20269,96000,Alto,0,144,0,29,Propia,Preparatoria
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,21229,0,Alto,0,93,143936,34,Propia,Posgrado
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,14599,0,Alto,0,94,0,26,Hipoteca,Preparatoria
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,22157,0,Alto,0,89,0,31,Familiares,Licenciatura
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,23330,0,Alto,0,94,0,34,Renta,Licenciatura
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,28514,0,Alto,0,98,0,36,Propia,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,15480,0,Alto,0,95,0,26,Hipoteca,Licenciatura
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,20806,0,Alto,0,92,0,29,Familiares,Licenciatura
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,16241,0,Alto,0,92,0,33,Propia,Licenciatura
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,22330,0,Alto,0,96,0,33,Propia,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,En_proceso,Rechazado,MALO,0,,,26743,0,Alto,0,100,0,36,Renta,Preparatoria
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Aprobada,Aprobado,BUENO,15000,14400,0.04,17783,0,Bajo,0.96,191,0,26,Hipoteca,Preparatoria
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Aprobada,Aprobado,BUENO,7000,5040,0.28,15149,0,Bajo,0.72,197,0,28,Renta,Preparatoria
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Rechazada,Rechazado,MALO,0,,,20906,0,Alto,0,101,0,30,Propia,Posgrado
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,14411,0,Alto,0,93,0,27,Familiares,Secundaria
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Aprobada,Aprobado,BUENO,275000,181500,0.34,28137,200000,Mínimo,0.66,226,0,36,Propia,Licenciatura
+500,GANTE,6000,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,18212,0,Alto,0,96,0,29,Hipoteca,Licenciatura
+228,ROJO GOMEZ,9300,Iztapalapa,Rechazada,Rechazado,MALO,0,,,19455,0,Alto,0,99,0,28,Hipoteca,Posgrado
+7997,ALAMEDA,6040,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,17763,53600,Alto,0,100,1903,28,Familiares,Preparatoria
+7768,PLAZA ORIENTE,7420,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,15667,8500,Alto,0,92,5253,32,Hipoteca,Licenciatura
+479,SAN FERNANDO,14050,Tlalpan,Rechazada,Rechazado,MALO,0,,,18342,0,Alto,0,98,0,27,Familiares,Preparatoria
+339,PLAZA LAS ANTENAS,9910,Iztapalapa,Rechazada,Rechazado,MALO,0,,,19713,0,Alto,0,101,0,27,Hipoteca,Preparatoria
+7746,PARQUE HUNDIDO,3100,Benito Juarez,Pendiente,Pre-Aprobado,MALO,1,,,16728,0,Alto,0,120,0,27,Renta,Preparatoria
+7790,PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,19772,0,Alto,0,123,0,27,Propia,Licenciatura
+7790,PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,18973,0,Alto,0,98,0,30,Renta,Secundaria
+7790,PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,19453,0,Alto,0,95,0,31,Familiares,Preparatoria
+7790,PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,19431,0,Alto,0,96,0,36,Hipoteca,Secundaria
+7804,LA SALLE MEXICO,6140,Cuauhtemoc,Pendiente,Pre-Aprobado,MALO,1,,,13555,0,Alto,0,147,0,27,Renta,Preparatoria
+7804,LA SALLE MEXICO,6140,Cuauhtemoc,Pendiente,Pre-Aprobado,MALO,1,,,25469,0,Alto,0,125,0,35,Hipoteca,Posgrado
+399,SAN JERONIMO,1900,Alvaro Obregon,Aprobada,Aprobado,REGULAR,45999,46459,-0.01,22695,0,Medio ,1.01,229,0,31,Familiares,Licenciatura
+400,PALMAS CORINTO,11000,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,17116,31500,Alto,0,92,0,28,Familiares,Licenciatura
+400,PALMAS CORINTO,11000,Miguel Hidalgo,Aprobada,Aprobado,BUENO,1999,1359,0.32,25010,0,Bajo,0.68,226,0,34,Renta,Preparatoria
+401,ESCENARIA,1090,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,18542,15000,Alto,0,90,0,34,Hipoteca,Preparatoria
+7568,BOX SELECT NAPOLES,3810,Benito Juarez,Rechazada,Rechazado,MALO,0,,,20374,0,Alto,0,98,0,28,Hipoteca,Posgrado
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,20435,0,Alto,0,142,0,28,Familiares,Licenciatura
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,19784,0,Alto,0,135,0,32,Propia,Preparatoria
+7576,INSURGENTES NOCHE BUENA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,15393,0,Alto,0,92,0,29,Hipoteca,Licenciatura
+7621,PLAZA LA VIGA,9430,Iztapalapa,Aprobada,Aprobado,REGULAR,5600,1008,0.82,21268,0,Mínimo,0.18,210,0,29,Renta,Posgrado
+7719,BOX SELECT CORUGNA,8200,Iztacalco,Aprobada,Aprobado,BUENO,6000,5400,0.1,14566,0,Bajo,0.9,185,0,29,Propia,Licenciatura
+7719,BOX SELECT CORUGNA,8200,Iztacalco,Aprobada,Aprobado,BUENO,10300,8755,0.15,26061,0,Bajo,0.85,170,0,35,Renta,Preparatoria
+7719,BOX SELECT CORUGNA,8200,Iztacalco,Rechazada,Rechazado,MALO,0,,,25844,0,Alto,0,89,0,36,Renta,Posgrado
+7569,CORNER SELECT SAN MIGUEL CHAPULTEPEC,11850,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,26981,0,Alto,0,100,0,35,Propia,Preparatoria
+7759,TELEVISA SANTA FE,1219,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,22163,15000,Alto,0,100,0,34,Hipoteca,Posgrado
+41,REFORMA DIANA,6600,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,25229,0,Alto,0,92,0,37,Hipoteca,Posgrado
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,28540,0,Alto,0,98,0,37,Renta,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,29367,0,Alto,0,100,0,37,Renta,Licenciatura
+340,RIVIERA,3600,Benito Juarez,Rechazada,Rechazado,MALO,0,,,27490,18004,Alto,0,97,0,38,Propia,Licenciatura
+7790,PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,32729,0,Alto,0,120,0,38,Familiares,Licenciatura
+67,CENTRAL DE ABASTOS,9040,Iztapalapa,Aprobada,Aprobado,BUENO,9899,4257,0.57,33058,21500,Bajo,0.43,240,0,38,Renta,Licenciatura
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Aprobada,Aprobado,REGULAR,2999,3419,-0.14,24507,2999,Alto,1.14,250,0,38,Familiares,Preparatoria
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,31940,0,Alto,0,90,0,39,Hipoteca,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,31339,0,Alto,0,93,0,39,Renta,Licenciatura
+11,POLANCO,11560,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,23045,0,Alto,0,94,0,39,Familiares,Preparatoria
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,29864,0,Alto,0,95,2610,39,Familiares,Posgrado
+7790,PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,32605,0,Alto,0,124,0,39,Propia,Licenciatura
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,34179,0,Alto,0,154,0,39,Renta,Preparatoria
+400,PALMAS CORINTO,11000,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,33437,0,Alto,0,89,0,40,Familiares,Preparatoria
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,33857,0,Alto,0,91,0,40,Propia,Licenciatura
+7569,CORNER SELECT SAN MIGUEL CHAPULTEPEC,11850,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,34929,0,Alto,0,93,0,40,Hipoteca,Licenciatura
+474,ALVARO OBREGON,6700,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,30942,0,Alto,0,94,0,40,Familiares,Preparatoria
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,30873,0,Alto,0,97,0,40,Renta,Preparatoria
+500,GANTE,6000,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,34055,47000,Alto,0,97,0,40,Familiares,Preparatoria
+7568,BOX SELECT NAPOLES,3810,Benito Juarez,Rechazada,Rechazado,MALO,0,,,31664,0,Alto,0,99,0,40,Hipoteca,Posgrado
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,34517,0,Alto,0,90,0,41,Renta,Preparatoria
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,32279,0,Alto,0,93,0,41,Propia,Licenciatura
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,36552,0,Alto,0,95,0,41,Hipoteca,Posgrado
+236,MIXHUCA,15850,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,38316,0,Alto,0,96,0,41,Renta,Posgrado
+7568,BOX SELECT NAPOLES,3810,Benito Juarez,Rechazada,Rechazado,MALO,0,,,35757,0,Alto,0,96,0,41,Propia,Posgrado
+45,AZCAPOTZALCO,2070,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,36043,0,Alto,0,101,0,41,Propia,Preparatoria
+7790,PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,28469,0,Alto,0,143,0,41,Propia,Licenciatura
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Aprobada,Aprobado,BUENO,27000,16200,0.4,38881,0,Bajo,0.6,205,0,42,Familiares,Preparatoria
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,42978,0,Alto,0,97,0,43,Renta,Licenciatura
+7571,CORNER SELECT PLAZA UNIVERSIDAD,3340,Benito Juarez,Aprobada,Aprobado,BUENO,15000,9300,0.38,36761,3000,Bajo,0.62,179,0,43,Propia,Preparatoria
+487,COLONIA DEL VALLE,3100,Benito Juarez,Aprobada,Aprobado,REGULAR,20200,4646,0.77,30102,15200,Bajo,0.23,220,0,43,Propia,Posgrado
+7576,INSURGENTES NOCHE BUENA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,45557,0,Alto,0,97,0,44,Propia,Licenciatura
+7569,CORNER SELECT SAN MIGUEL CHAPULTEPEC,11850,Miguel Hidalgo,Cancelada,Rechazado,MALO,0,,,42726,0,Alto,0,100,0,44,Propia,Preparatoria
+57,SAN ANTONIO,3910,Benito Juarez,Rechazada,Rechazado,MALO,0,,,44005,0,Alto,0,90,65212,45,Renta,Posgrado
+7804,LA SALLE MEXICO,6140,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,35249,0,Alto,0,93,0,45,Familiares,Licenciatura
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,En_proceso,Rechazado,MALO,0,,,41954,0,Alto,0,100,0,45,Familiares,Posgrado
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,46182,0,Alto,0,101,0,45,Renta,Posgrado
+7768,PLAZA ORIENTE,7420,Gustavo A. Madero,Pendiente,Pre-Aprobado,MALO,1,,,48411,0,Alto,0,110,0,45,Hipoteca,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,40499,0,Alto,0,132,0,45,Familiares,Preparatoria
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Pendiente,Pre-Aprobado,MALO,1,,,36230,0,Alto,0,132,0,45,Familiares,Licenciatura
+7,PLAZA GABRIEL MANCERA,3100,Benito Juarez,Aprobada,Aprobado,BUENO,50000,58500,-0.17,42811,0,Bajo,1.17,178,0,45,Hipoteca,Licenciatura
+41,REFORMA DIANA,6600,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,47545,0,Alto,0,90,0,46,Hipoteca,Posgrado
+399,SAN JERONIMO,1900,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,37702,0,Alto,0,95,0,46,Familiares,Posgrado
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,50730,0,Alto,0,99,0,46,Hipoteca,Preparatoria
+13,REFORMA COLON,6470,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,47307,0,Alto,0,101,0,46,Renta,Posgrado
+7746,PARQUE HUNDIDO,3100,Benito Juarez,Pendiente,Pre-Aprobado,MALO,1,,,48179,0,Alto,0,120,0,46,Propia,Licenciatura
+7759,TELEVISA SANTA FE,1219,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,44483,0,Alto,0,90,0,47,Propia,Licenciatura
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,36082,0,Alto,0,92,0,47,Hipoteca,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,51336,0,Alto,0,94,0,47,Familiares,Secundaria
+7621,PLAZA LA VIGA,9430,Iztapalapa,Pendiente,Pre-Aprobado,MALO,1,,,36562,0,Alto,0,111,0,47,Propia,Licenciatura
+7998,BOX SELECT ALAMEDA,6040,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,54323,0,Alto,0,95,0,48,Renta,Preparatoria
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,52904,0,Alto,0,98,0,48,Propia,Preparatoria
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,48994,0,Alto,0,98,0,48,Propia,Secundaria
+7746,PARQUE HUNDIDO,3100,Benito Juarez,Pendiente,Pre-Aprobado,MALO,1,,,49055,0,Alto,0,111,0,48,Hipoteca,Preparatoria
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Pendiente,Pre-Aprobado,MALO,1,,,54978,47000,Alto,0,123,0,48,Familiares,Preparatoria
+7790,PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,57358,0,Alto,0,167,0,48,Hipoteca,Posgrado
+398,DIAMANTE SANTA FE,5100,Cuajimalpa de Morelos,Aprobada,Aprobado,BUENO,9899,8810,0.11,40765,18000,Bajo,0.89,246,0,48,Familiares,Posgrado
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,50831,0,Alto,0,90,0,49,Hipoteca,Posgrado
+7804,LA SALLE MEXICO,6140,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,52219,101000,Alto,0,95,0,49,Familiares,Posgrado
+11,POLANCO,11560,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,51883,0,Alto,0,96,69139,49,Hipoteca,Licenciatura
+287,BOSQUES DE DURAZNOS,11700,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,53286,0,Alto,0,97,0,49,Renta,Preparatoria
+500,GANTE,6000,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,61195,0,Alto,0,99,56303,49,Propia,Posgrado
+45,AZCAPOTZALCO,2070,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,51507,0,Alto,0,99,0,49,Familiares,Licenciatura
+7772,PABELLON CUEMANCO,14336,Tlalpan,Pendiente,Pre-Aprobado,MALO,1,,,60982,0,Alto,0,120,0,49,Renta,Licenciatura
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Aprobada,Aprobado,BUENO,9000,6480,0.28,58898,0,Bajo,0.72,174,0,49,Propia,Posgrado
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Aprobada,Aprobado,REGULAR,6000,1860,0.69,42889,0,Mínimo,0.31,196,0,49,Propia,Preparatoria
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Aprobada,Aprobado,REGULAR,9899,3069,0.69,58198,29000,Mínimo,0.31,244,0,49,Hipoteca,Preparatoria
+7768,PLAZA ORIENTE,7420,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,62252,0,Alto,0,92,0,50,Renta,Posgrado
+4,LA VILLA,7810,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,42676,0,Alto,0,93,0,50,Propia,Preparatoria
+7768,PLAZA ORIENTE,7420,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,60356,0,Alto,0,93,0,50,Hipoteca,Posgrado
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,56503,0,Alto,0,101,0,50,Familiares,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,48287,0,Alto,0,135,0,50,Familiares,Preparatoria
+41,REFORMA DIANA,6600,Cuauhtemoc,Aprobada,Aprobado,REGULAR,134000,28140,0.79,63293,0,Medio ,0.21,237,175054,50,Familiares,Preparatoria
+40,LOMAS DE CHAPULTEPEC,11000,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,62228,0,Alto,0,91,0,51,Renta,Posgrado
+4,LA VILLA,7810,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,57601,0,Alto,0,96,0,51,Propia,Licenciatura
+7576,INSURGENTES NOCHE BUENA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,64443,0,Alto,0,98,0,51,Propia,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Pendiente,Pre-Aprobado,MALO,1,,,65176,0,Alto,0,111,38103,51,Renta,Licenciatura
+7772,PABELLON CUEMANCO,14336,Tlalpan,Pendiente,Pre-Aprobado,MALO,1,,,46933,0,Alto,0,121,0,51,Propia,Posgrado
+7746,PARQUE HUNDIDO,3100,Benito Juarez,Pendiente,Pre-Aprobado,MALO,1,,,50512,4000,Alto,0,124,0,51,Propia,Preparatoria
+479,SAN FERNANDO,14050,Tlalpan,Aprobada,Aprobado,BUENO,10000,9000,0.1,67901,6400,Bajo,0.9,219,83517,51,Familiares,Licenciatura
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,BUENO,38000,16720,0.56,65566,18000,Mínimo,0.44,219,0,51,Familiares,Licenciatura
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,48966,0,Alto,0,90,0,52,Familiares,Preparatoria
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Rechazada,Rechazado,MALO,0,,,66178,0,Alto,0,91,0,52,Propia,Preparatoria
+7569,CORNER SELECT SAN MIGUEL CHAPULTEPEC,11850,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,60731,0,Alto,0,91,0,52,Renta,Preparatoria
+7571,CORNER SELECT PLAZA UNIVERSIDAD,3340,Benito Juarez,En_proceso,Rechazado,MALO,0,,,52268,0,Alto,0,94,0,52,Renta,Licenciatura
+7804,LA SALLE MEXICO,6140,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,61702,47000,Alto,0,100,0,52,Hipoteca,Licenciatura
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,74329,0,Alto,0,101,0,52,Renta,Preparatoria
+7790,PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,50956,0,Alto,0,120,0,52,Hipoteca,Licenciatura
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,68988,0,Alto,0,120,0,52,Renta,Preparatoria
+7735,FELIX CUEVAS RECREO,3100,Benito Juarez,Pendiente,Pre-Aprobado,MALO,1,,,62709,0,Alto,0,124,0,52,Familiares,Preparatoria
+33,ERMITA IZTAPALAPA,9070,Iztapalapa,Aprobada,Aprobado,REGULAR,9899,10889,-0.1,50385,0,Medio ,1.1,217,0,52,Propia,Licenciatura
+33,ERMITA IZTAPALAPA,9070,Iztapalapa,Rechazada,Rechazado,MALO,0,,,71975,0,Alto,0,89,0,53,Familiares,Posgrado
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,56415,0,Alto,0,92,0,53,Propia,Posgrado
+401,ESCENARIA,1090,Alvaro Obregon,Rechazada,Rechazado,MALO,0,,,57858,374500,Alto,0,99,22931,53,Hipoteca,Posgrado
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,BUENO,75000,34500,0.54,74287,36000,Mínimo,0.46,223,0,53,Familiares,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,67636,0,Alto,0,89,0,54,Renta,Posgrado
+4,LA VILLA,7810,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,60491,0,Alto,0,95,0,54,Renta,Licenciatura
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Rechazada,Rechazado,MALO,0,,,72127,0,Alto,0,100,0,54,Hipoteca,Preparatoria
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,BUENO,50000,54000,-0.08,56516,10000,Bajo,1.08,186,0,54,Renta,Posgrado
+398,DIAMANTE SANTA FE,5100,Cuajimalpa de Morelos,Aprobada,Aprobado,BUENO,2999,2219,0.26,71311,0,Bajo,0.74,229,8478,54,Hipoteca,Posgrado
+68,PLAZA CASCADA,9450,Iztapalapa,Aprobada,Aprobado,BUENO,1999,1579,0.21,71625,0,Bajo,0.79,236,0,54,Renta,Posgrado
+50,INSURGENTES TLALPAN,14000,Tlalpan,Aprobada,Aprobado,REGULAR,45000,11700,0.74,84375,0,Mínimo,0.26,241,0,54,Familiares,Posgrado
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Aprobada,Aprobado,REGULAR,49999,18000,0.64,83434,50000,Bajo,0.36,251,32047,54,Propia,Preparatoria
+7576,INSURGENTES NOCHE BUENA,3100,Benito Juarez,Rechazada,Rechazado,MALO,0,,,79440,0,Alto,0,93,0,55,Renta,Posgrado
+500,GANTE,6000,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,62870,0,Alto,0,95,0,55,Familiares,Posgrado
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Pendiente,Pre-Aprobado,MALO,1,,,59120,0,Alto,0,123,0,55,Renta,Posgrado
+76,FERROCARRIL HIDALGO,7000,Gustavo A. Madero,Aprobada,Aprobado,BUENO,49999,24500,0.51,60735,34000,Mínimo,0.49,231,0,55,Renta,Posgrado
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Rechazada,Rechazado,MALO,0,,,78052,0,Alto,0,98,0,56,Renta,Licenciatura
+65,COPILCO UNIVERSIDAD,4360,Coyoacan,Rechazada,Rechazado,MALO,0,,,88739,0,Alto,0,99,0,56,Familiares,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,79898,0,Alto,0,99,0,56,Hipoteca,Licenciatura
+7998,BOX SELECT ALAMEDA,6040,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,60835,0,Alto,0,99,0,56,Propia,Licenciatura
+7569,CORNER SELECT SAN MIGUEL CHAPULTEPEC,11850,Miguel Hidalgo,Aprobada,Aprobado,REGULAR,6000,1680,0.72,86792,0,Mínimo,0.28,164,0,56,Renta,Preparatoria
+479,SAN FERNANDO,14050,Tlalpan,Aprobada,Aprobado,BUENO,77000,31570,0.59,86252,0,Mínimo,0.41,252,64142,56,Hipoteca,Posgrado
+5751,CERRO DE LA ESTRELLA,9360,Iztapalapa,Rechazada,Rechazado,MALO,0,,,78583,0,Alto,0,89,0,57,Propia,Preparatoria
+7790,PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,93109,0,Alto,0,95,0,57,Familiares,Preparatoria
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,83242,0,Alto,0,96,0,57,Hipoteca,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Pendiente,Pre-Aprobado,MALO,1,,,66446,0,Alto,0,123,0,57,Renta,Preparatoria
+7571,CORNER SELECT PLAZA UNIVERSIDAD,3340,Benito Juarez,Aprobada,Aprobado,REGULAR,5000,1200,0.76,65572,0,Mínimo,0.24,183,0,57,Propia,Preparatoria
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,BUENO,152000,123120,0.19,93904,18500,Bajo,0.81,210,0,57,Renta,Preparatoria
+11,POLANCO,11560,Miguel Hidalgo,Aprobada,Aprobado,BUENO,39999,17600,0.56,97970,24000,Mínimo,0.44,213,18938,57,Familiares,Posgrado
+7588,CAMPESTRE CHURUBUSCO,4410,Coyoacan,Rechazada,Rechazado,MALO,0,,,69628,0,Alto,0,89,0,58,Renta,Posgrado
+7791,BOX SELECT PLAZA OASIS,4310,Coyoacan,Rechazada,Rechazado,MALO,0,,,98352,0,Alto,0,98,0,58,Hipoteca,Licenciatura
+479,SAN FERNANDO,14050,Tlalpan,Rechazada,Rechazado,MALO,0,,,95949,0,Alto,0,100,0,58,Propia,Posgrado
+228,ROJO GOMEZ,9300,Iztapalapa,Rechazada,Rechazado,MALO,0,,,102431,0,Alto,0,101,0,58,Familiares,Preparatoria
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Cancelada,Rechazado,MALO,0,,,87867,0,Alto,0,101,0,58,Hipoteca,Licenciatura
+16,PORTAL SAN ANGEL,1040,Alvaro Obregon,Aprobada,Aprobado,BUENO,149000,143040,0.04,102703,0,Bajo,0.96,237,53364,58,Hipoteca,Licenciatura
+41,REFORMA DIANA,6600,Cuauhtemoc,Aprobada,Aprobado,BUENO,1999,1279,0.36,97387,0,Bajo,0.64,242,0,58,Propia,Posgrado
+141,NEXTENGO AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,REGULAR,61000,73200,-0.2,100600,61000,Alto,1.2,250,0,58,Familiares,Posgrado
+400,PALMAS CORINTO,11000,Miguel Hidalgo,Aprobada,Aprobado,BUENO,10399,4368,0.58,79432,14000,Mínimo,0.42,251,0,58,Hipoteca,Posgrado
+223,LAGO ALBERTO,11320,Miguel Hidalgo,Rechazada,Rechazado,MALO,0,,,91649,0,Alto,0,92,0,59,Familiares,Preparatoria
+7796,AEROPUERTO T2,15620,Venustiano Carranza,Rechazada,Rechazado,MALO,0,,,103447,0,Alto,0,92,0,59,Familiares,Preparatoria
+7571,CORNER SELECT PLAZA UNIVERSIDAD,3340,Benito Juarez,Rechazada,Rechazado,MALO,0,,,89865,0,Alto,0,93,0,59,Renta,Posgrado
+7772,PABELLON CUEMANCO,14336,Tlalpan,Rechazada,Rechazado,MALO,0,,,101051,0,Alto,0,97,0,59,Propia,Licenciatura
+7829,MIGUEL ANGEL DE QUEVEDO,4010,Coyoacan,Rechazada,Rechazado,MALO,0,,,73606,0,Alto,0,99,0,59,Familiares,Licenciatura
+7768,PLAZA ORIENTE,7420,Gustavo A. Madero,Pendiente,Pre-Aprobado,MALO,1,,,91814,0,Alto,0,130,0,59,Renta,Preparatoria
+7661,CIUDAD JUDICIAL,6720,Cuauhtemoc,Aprobada,Aprobado,REGULAR,4300,817,0.81,91562,76800,Medio ,0.19,194,58368,59,Renta,Preparatoria
+7661,CIUDAD JUDICIAL,6720,Cuauhtemoc,Aprobada,Aprobado,BUENO,7000,7350,-0.05,101961,0,Bajo,1.05,205,0,59,Familiares,Preparatoria
+66,BARRANCA DEL MUERTO,3900,Benito Juarez,Aprobada,Aprobado,REGULAR,2999,960,0.68,94616,0,Mínimo,0.32,205,0,59,Propia,Preparatoria
+477,TORRES LINDAVISTA,7700,Gustavo A. Madero,Rechazada,Rechazado,MALO,0,,,83112,0,Alto,0,90,0,60,Renta,Posgrado
+41,REFORMA DIANA,6600,Cuauhtemoc,Rechazada,Rechazado,MALO,0,,,110978,33500,Alto,0,100,24851,60,Propia,Licenciatura
+45,AZCAPOTZALCO,2070,Azcapotzalco,Aprobada,Aprobado,BUENO,4999,4599,0.08,110592,0,Bajo,0.92,206,0,60,Familiares,Licenciatura
+6,TACUBAYA,11870,Miguel Hidalgo,Aprobada,Aprobado,BUENO,49999,33999,0.32,100920,73500,Mínimo,0.68,234,0,60,Hipoteca,Preparatoria
