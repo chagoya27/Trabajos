@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-image: url(fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.frame{
+    margin-top: 3.75em; /*60px*/
+    width: 25em;/*400px*/
+    height: 32em;/*500px*/
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+
+.header .image{
+    width: 100%;
+    height: 7.5em;
+    background-image: url(fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:10px 10px 0 0;
+}
+
+.principal {
+    width: 25em;
+    height: 20.62em; /*300px*/
+    text-align: center;
+}
+
+.principal .image{
+    width: 25em;
+    height: 12.5em; /*200px*/
+    margin-top: -70px;
+    
+}
+
+
+.principal .image img{
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #354698;
+    box-shadow: 0 0 10px #354698;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.principal .image img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+
+
+
+.principal .text{
+    width: 25em;
+    height: 9.375em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.principal .text .upper{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 0.625em;
+    font-size:25px;
+    font-weight: 700;
+}
+
+.principal .text .upper .numero{
+    color: #354698;
+}
+
+
+.principal .text .bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal .text .bottom p{
+    font-size: 12px;
+}
+
+.principal .text .bottom div{
+    height: 5px;
+    width: 25em;
+    background: #aaaaaa;
+}
+
+.footer{
+    margin-top: 0.625em;
+    width: 25em;
+    height: 7.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.footer .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer .item img{
+    width: 2.5em;
+}
+
+.footer .item .text{
+    margin-bottom: 0.625em;
+}
+
+@media (max-width:600px){
+    body{
+        font-size: 14px;
+        background-repeat: repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .frame{
+        margin-top: 10px;
+    }
+}

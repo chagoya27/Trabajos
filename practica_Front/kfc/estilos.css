@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+body{
+    height: 100%;
+    background:  radial-gradient(#f77737 0%, #d9291f 90%,#aa2119 100%);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icono img{
+    width: 200px;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+}
+
+header .navbar .item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+header .navbar .item:hover{
+    text-decoration:underline;
+    scale: 1.1;
+    color: #fff;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 100px 20px 100px
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cuerpo .text {
+    width: 600px;;
+    color: #fff;
+}
+
+.cuerpo .text .eslogan{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.cuerpo .text .bottom p{
+    display: inline-block;
+}
+
+.cuerpo .text .bottom .bold{
+    font-weight: bold;
+}
+
+.cuerpo .text .descripcion{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cuerpo .text .btn{
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    border-radius: 30px;
+    border: 0;
+    font-size: 18px;
+    transition: all 0.4s ease-in-out;
+}
+
+.cuerpo .text .btn:hover{
+    cursor: pointer;
+    background-color: #f3f3f3;
+    scale: 1.1;
+}
+
+.principal .image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 600px;
+    margin-top: -40px;
+}
+
+.principal .image img{
+    width: 500px;
+}
+
+
+.pie .redes{
+    display: flex;
+    gap:30px;
+    margin-top: 40px;
+}
+
+.pie .redes a{
+    width: 50px;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.pie .redes .facebook:hover{
+    color:#1877f2;
+}
+
+.pie .redes .twiter:hover{
+    color:#1da1f2;
+}
+
+.pie .redes .instagram:hover{
+    color:#ffdc80;
+}

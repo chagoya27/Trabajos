@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*estado inicial*/
+
+
+
+.principal .descripcion{
+    opacity: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.frame{
+    height: 500px;
+    width: 350px;
+    background: black;
+    margin: 50px 20px 20px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #000;
+
+}
+
+.header{
+    position: relative;
+    height: 220px;
+    width: 350px;
+    
+}
+
+
+.frame .header .circle{
+    border-radius: 50%;
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    top:-60px;
+    left: 120px;
+    transition: all 0.8s ease-in-out;
+}
+
+.frame .header .azul{
+    background: #3dc2e0;
+}
+
+.frame .header .naranja{
+    background: #ed5f31;
+}
+
+.frame .header .rosa{
+    background: #d92d47;
+}
+
+
+
+.frame .header .image{
+    width: 220px;
+    height: 220px;
+    position:absolute;
+    z-index: 8;
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */   
+    rotate: -30deg;
+    top:50px;
+    left:60px;
+    transition: all 0.8s ease-in-out;
+}
+
+.frame .header .imageAzul{
+    background-image: url('tenisNike2-removebg-preview.png');
+}
+
+.frame .header .imageNaranja{
+    background-image: url('tenisDunkNaranja-removebg-preview.png');
+}
+
+.frame .header .imageRosa{
+    background-image: url('tenisDunkRed-removebg-preview.png');
+}
+
+
+
+.principal{
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.principal .text-principal{
+    font-size: 30px;
+    transform: translateY(70px);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    transition: all 1s ease-in-out;
+
+}
+
+.principal .descripcion {
+    font-size: 16px;
+}
+
+
+
+.principal .descripcion .sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 15px;
+
+}
+
+.principal .descripcion .sizes .size{
+    
+    background: #f2f2f2;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    border-radius:4px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+
+
+
+
+
+.principal .descripcion .colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 15px;
+
+}
+
+.principal .descripcion .colors .circle-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+}
+
+.principal .descripcion .colors .naranja{
+    background: #ed5f31;
+}
+
+.principal .descripcion .colors .azul{
+    background: #3dc2e0;
+}
+
+.principal .descripcion .colors .rosa{
+    background: #d92d47;
+}
+
+
+
+
+.principal .descripcion .buy{
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+}
+
+.principal .descripcion .btn{
+    background: #3dc2e0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 0;
+    width: 120px;
+    height: 40px;
+    color: #000;
+    transition: all 0.2s linear;
+}
+
+.principal .descripcion .btn-azul{
+    background: #3dc2e0;
+}
+
+.principal .descripcion .btn-naranja{
+    background: #ed5f31;
+}
+
+.principal .descripcion .btn-rosa{
+    background: #d92d47;
+}
+
+.principal .descripcion .btn:hover{
+    background: #fff;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/*despues de pasar el mouse por el frame*/
+
+.frame:hover .header .circle{
+    width: 500px;
+    height: 500px;
+    top:-300px;
+    left: -40px;
+}
+
+.frame:hover .header .image{
+    top:-20px;
+    left:60px;
+}
+
+.frame:hover .principal .text-principal{
+    transform: translate(0px);
+}
+
+.frame:hover .principal .descripcion{
+    opacity: 1;
+    animation: fadeIn 1s ease alternate;
+}
+
+
+
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        filter: blur(20px);
+    }
+    10%{
+        opacity: 1;
+        filter: blur(10px) ;
+
+    }
+}
+
+
+
+/*
+@keyframes ini-circle {
+    from{
+        width: 500px;
+        height: 500px;
+        top:-280px;
+        left: -20px;
+    }
+    
+    to{
+        width: 250px;
+        height: 250px;
+        top:-100px;
+        left: 130px;
+    }
+}
+
+
+@keyframes move-circle {
+    from{
+        width: 250px;
+        height: 250px;
+        top:-100px;
+        left: 130px;
+    }
+    
+    to{
+        width: 500px;
+        height: 500px;
+        top:-280px;
+        left: -20px;
+
+    }
+    
+}
+
+@keyframes ini-image {
+    from{
+        top:50px;
+        left:60px;
+    }to{
+        top:-20px;
+        left:60px;
+    }
+    
+}
+
+
+@keyframes move-image {
+    from{
+        top:-20px;
+        left:60px;
+    }
+    
+    to{
+        top:50px;
+        left:60px;
+    }
+    
+}
+
+*/

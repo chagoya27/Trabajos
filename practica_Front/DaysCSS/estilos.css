@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    background:linear-gradient( to right, #6D32CC, #B88C9E);
+}
+
+.container{ 
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    
+}
+
+.numeros{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+
+.uno span{
+    position: absolute;
+    left:70px;
+    width: 40px;
+    height: 200px;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 3;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+
+}
+
+.uno span:nth-child(1){
+    left: 35px;
+    transform: rotate(50deg);
+    height: 80px;
+    background: #f2f2f2;
+}
+
+.ceros span {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 50px solid #fff; /* Borde del círculo */
+    background: transparent; /* Sin relleno */
+    border-radius: 50%; /* Hace que el div sea circular */
+    left: 100px;
+    z-index: 2;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+}
+
+.ceros span:nth-child(1){
+    left: 270px;
+    z-index: 1;
+}
+
+
+.letras{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    
+    position: relative;
+    color: #fff;
+}
+
+.top{
+    font-family: 'Opens';
+    font-weight: 700;
+    font-size: 100px;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bottom{
+    font-family: 'Opens';
+    font-weight: 300;
+    height:   50px;
+    width: 500px;
+    font-size: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

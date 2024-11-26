@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background:linear-gradient( to right, #6D32CC, #B88C9E);
+    border-radius: 6px;
+    margin-top: 60px;
+    padding: 80px 100px 80px 100px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+    
+}
+
+.container .numeros{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    
+    
+    position: relative;
+    
+
+}
+
+.container .letras{
+    width: 300px;
+    height: 140px;
+    position: relative;
+}
+
+
+.uno span{
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    left: 30px;
+    top:30px;
+    background: #fff;
+    border-radius: 4px;
+    z-index: 3;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.uno span:nth-child(1){
+    transform: rotate(50deg);
+    height: 60px;
+    background: #f2f2f2;
+    left: 10px;
+    top: 29px;
+}
+
+
+
+.ceros span {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 30px solid #fff; /* Borde del círculo */
+    background: transparent; /* Sin relleno */
+    border-radius: 50%; /* Hace que el div sea circular */
+    z-index: 2;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.4);
+    top: 30px;
+    right: 110px;
+
+}
+
+
+.ceros span:nth-child(1){
+    right: -15px;
+} 
+
+.letras .top{
+    font-weight: 700;
+    font-size:82px;
+	color:white;
+	font-family: 'Courier New', Helvetica;
+    text-transform: uppercase;
+    display: block;
+    line-height: 0.5;
+
+    
+    
+}
+
+.letras .bottom{
+    font-weight: 300;
+    font-size:35px;
+	color:white;
+	font-family: 'Courier New', Helvetica;
+    font-weight: 700;
+    line-height: 1.5;
+    width: 300px;
+
+    
+    
+}

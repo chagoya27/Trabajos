@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botones{
+    display: flex;
+    width: 600px;
+    height: 150px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-button{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: transparent;
+    border-radius: 50%;
+    border: 0;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+
+
+.icon-button .icon{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+}
+
+.icon-button .icon i{
+    font-size: 16px;
+}
+
+
+
+
+.icon-button .text{
+    opacity: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.icon-button:hover{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    
+}
+
+
+.icon-button:hover .text{
+    opacity: 1;
+}
+
+.icon-button:hover .icon{
+    opacity: 0;
+
+}
+
+.home:hover{
+    background: linear-gradient(to right,#00c0d0,#7dffff );
+    
+}
+
+.message:hover{
+    background: linear-gradient(to right,#6153ff,#1a2fe6);
+}
+
+
+.favorites:hover{
+    background: linear-gradient(to right,#ff55ff ,#da00d5);
+}
+
+.video:hover{
+    background: linear-gradient(to right,#ffc442 ,#d17f00);
+}
+
+.photo:hover{
+    background: linear-gradient(to right,#90ff53 ,#06cd00);
+}
+

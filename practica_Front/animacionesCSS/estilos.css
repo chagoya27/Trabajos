@@ -1,0 +1,49 @@
+.pulser{
+    width: 50px;
+    height: 50px;
+    background: #09f;
+    border-radius: 100%;
+    position: relative;
+    transition: 2s; /*tiempo de la animacion*/
+    transition-property: all;/*que propiedades quieres que se haga*/
+    
+    
+    transition-timing-function: ease; /*como va la transition*/
+    /*ease-in: para entrada lenta salida rapida
+    ease-out:entrada rapida salida lenta
+    ease-in-out entrada y salida rapida
+    steps() pasos para terminar la transicion
+    cubic-bezier(x1 y1, x2 y2)
+    */
+
+    opacity: 0;
+}
+
+section:hover .pulser{
+    opacity: 1;
+}
+
+section{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    display: grid;
+    place-content: center  ;
+    min-height: 50vh;
+}
+
+
+.pulser:first-child{
+    transition-delay:0s ;
+}
+.pulser:nth-child(2){
+    transition-delay: 300ms;
+}
+
+.pulser:nth-child(3){
+    transition-delay: 600ms;
+}

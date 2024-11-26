@@ -1,0 +1,297 @@
+*{
+    padding:0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+    color: white;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('fondoKumiko2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page {
+    background: linear-gradient(to right, rgba(0,0,0,1) 4%, rgba(0,0,0,0.5));
+    background-size: cover;
+    padding: 0 5em 0.625em 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 4.375em;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+
+}
+
+.watch{
+    display: flex;
+}
+
+
+/*estilos del header*/
+.header{
+    height: 3.75em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.logo img{
+    margin-top: -30px;
+    margin-left: -20px;
+    width: 9.375em; 
+}
+
+.header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25em;
+}
+
+.header .navBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.header .navBar .icon{
+    position: absolute;
+    left: 10px;
+}
+
+.header .navBar .input{
+    border: 2px rgba(255,255,255,0.3) solid;
+    background: none;
+    color: #fff;
+    height: 2.19em;
+    width: 15.625em;
+    padding: 0px 0px 0px 30px;
+    border-radius: 6px;
+}
+
+
+/*estilos de la parte principal*/
+
+
+
+/*estilo del logo de netflix*/
+.principal .logos .netflix-Series{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 0.5em;
+
+}
+
+.principal .logos .netflix-Series img{
+    width: 1.875em;
+    margin-left: -8px;
+}
+
+
+/*estilo logo serie*/
+.principal .logos .serie{
+    position: relative;
+    width: 28.2em; /* Ancho deseado del contenedor */
+    height: 9.37em; /* Alto deseado del contenedor */
+    overflow: hidden; /* Oculta el contenido desbordado */
+}
+
+.principal .logos .serie img{
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Corta la imagen para llenar el contenedor */
+    position: absolute; /* Posiciona la imagen en el contenedor */
+    top: -45px;
+    left: -25px;
+}
+
+
+.principal .info{
+    display: flex;
+    flex-direction: column;
+}
+
+/*estilo de la barra que va debajo del logo de la serie*/
+.principal .info .bar{
+    margin-top: 5px;
+}
+
+.principal .info .bar{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-size: 1em;
+
+}
+
+
+
+.principal .info .item {
+    margin-right: 20px;
+    color: rgba(255,255,255,0.5);
+    & p{
+        color: rgba(255,255,255,0.5);
+    }
+    
+}
+.principal .categoria button{
+    width: 50px;
+    height: 18px;
+    background: #e50914;
+    border: 0;
+    border-radius: 2px;
+    
+}
+
+.principal .info .descripcion-parrafo{
+    margin-top: 10px;
+    width: 600px;
+    letter-spacing: 0.15em;
+    line-height: 1.4;
+
+}
+
+/*estilos de los botones*/
+.principal .buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.principal .buttons .btn{
+    border-radius: 2px;
+    color: #fff;
+    width: 6.25em;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    & span{
+        z-index: 2;
+        position: relative;
+        transition: all .3s ease
+    }
+}
+
+.principal .buttons .btn:hover{
+    cursor: pointer;
+}
+
+
+/*estilo del boton de play*/
+.principal .buttons .play{
+    background: #e50914;
+    margin-right: 20px;
+}
+
+.principal .buttons .play::after{
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+    transition:all 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+.principal .buttons .play:hover::after{
+    transform: scale(400);
+    background: #fff;
+}
+
+.principal .buttons .play:hover span{
+    color: black;
+
+}
+
+/*estilo del boton de list*/
+.principal .buttons .list{
+    background: none;
+
+}
+
+.list svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.list rect {
+	width: 100%;
+	height: 100%;
+	stroke: #faf7f7;
+	stroke-width: 5px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .6s ease all;
+}
+
+.list:hover rect {
+	stroke-dashoffset: 0;
+}
+
+
+/*estilo del watch*/
+.principal .watch{
+    margin-top: 3.125em;
+}
+
+
+.principal .watch .icon{
+    width: 3.75em;
+    margin-right: 0.63em;
+    background: transparent;
+    border: none;
+    & .fa-regular{
+        font-size: 3.125em;
+        transition: all .3s ease;
+    }
+}
+
+
+.principal .watch button:hover .fa-regular{
+    color: #e50914;
+    cursor: pointer;
+}
+
+
+.principal .watch .text{
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+}
+
+
+
