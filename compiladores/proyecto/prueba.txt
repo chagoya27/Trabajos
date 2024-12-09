@@ -1,0 +1,9 @@
+int main(variable){
+    int var;
+    funcion(parametro1,parametro1);
+    variable2 = op2+1;
+    print("Hola Mundo");
+    return -1;
+}
+
+
